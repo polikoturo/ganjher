@@ -26,4 +26,4 @@ workflows:
   version: 2 
   commit: 
     jobs: 
-      - build1 
+      - build1

